@@ -48,7 +48,7 @@ if [ $? -eq 0 ]; then
 	rm -f ${DISTDIR}/*.deb
 fi
 
-if [ "$DIST" == "buster" -o "$DIST" == "bullseye" -o "$DIST" == "bookworm" ]; then
+if [ "$DIST" == "buster" -o "$DIST" == "bullseye" ]; then
 	chroot ${DISTDIR} systemctl disable rng-tools5
 	chroot ${DISTDIR} systemctl disable hostapd
 
