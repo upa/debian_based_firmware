@@ -447,18 +447,17 @@ bookworm)
 		RAMDISK_SIZE=500
 	;;
 	obsix9)
-		#PATCHLEVEL=0
-		#ISOFILE=debian-12.0.0-amd64-DVD-1.iso
-		#RAMDISK_SIZE=500
-		PATCHLEVEL=0-modified
-		ISOFILE=debian-12.5.0-amd64-DVD-1.iso
-		#KERNEL=6.1.76
-		KERNEL=5.10.176
+		PATCHLEVEL=0
+		ISOFILE=debian-12.0.0-amd64-DVD-1.iso
 		RAMDISK_SIZE=500
 	;;
 	obsix9r)
-		PATCHLEVEL=0
-		ISOFILE=debian-12.0.0-amd64-DVD-1.iso
+		#PATCHLEVEL=0
+		#ISOFILE=debian-12.0.0-amd64-DVD-1.iso
+		#RAMDISK_SIZE=500
+		PATCHLEVEL=0c
+		ISOFILE=debian-12.5.0-amd64-DVD-1.iso
+		KERNEL=5.10.176
 		RAMDISK_SIZE=500
 	;;
 	obshx1)
